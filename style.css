@@ -1939,3 +1939,16 @@ SCROLL PROGRESS
 html{scroll-behavior:smooth}.logo,.logo *{user-select:none;cursor:pointer;}
 
 .nav-logo,.nav-logo *{user-select:none;cursor:pointer;}
+
+.social-nav{display:flex;gap:10px;align-items:center;margin-left:20px}.social-btn{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#ffffff12;color:#fff;text-decoration:none}@media(max-width:768px){.social-nav{margin-left:auto;margin-right:12px}.social-btn{width:36px;height:36px}}
+.navbar{display:flex;align-items:center}
+nav{display:flex;align-items:center;gap:32px;margin-left:auto}
+.social-nav{display:flex;align-items:center;gap:10px;margin-left:20px}
+.menu-toggle{margin-left:16px}
+@media (max-width:768px){
+nav{display:none}
+.social-nav{margin-left:auto;order:2}
+.menu-toggle{order:3;margin-left:12px}
+}
+
+.mobile-social{display:none}@media(max-width:768px){nav .social-nav{display:none}.mobile-social{display:flex;gap:10px;margin-left:auto;margin-right:12px}.mobile-social .social-btn{display:flex}}
