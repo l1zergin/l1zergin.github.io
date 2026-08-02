@@ -1935,3 +1935,7 @@ SCROLL PROGRESS
 .hero-left{max-width:100%!important;width:100%!important;text-align:center!important;align-items:center!important;margin:0 auto!important;}
 .badge,.status{display:none!important;}
 }
+
+html{scroll-behavior:smooth}.logo,.logo *{user-select:none;cursor:pointer;}
+
+.nav-logo,.nav-logo *{user-select:none;cursor:pointer;}

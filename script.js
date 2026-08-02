@@ -392,3 +392,4 @@ window.addEventListener("scroll",()=>{
     progress + "%";
 
 });
+const lg=document.getElementById("logo");if(lg){lg.onclick=(e)=>{e.preventDefault();window.scrollTo({top:0,left:0,behavior:"smooth"});document.documentElement.scrollTop=0;document.body.scrollTop=0;};}
